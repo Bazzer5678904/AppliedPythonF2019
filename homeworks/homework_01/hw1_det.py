@@ -10,7 +10,7 @@ def minor(matrix, i, j):
 
 
 def calculate_determinant(list_of_lists):
-    n = len(mlist_of_lists)
+    n = len(list_of_lists)
     for i in range(n):
         if n != len(list_of_lists[i]):
             return None
