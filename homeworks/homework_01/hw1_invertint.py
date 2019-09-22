@@ -2,7 +2,7 @@
 # coding: utf-8
 
 
-def reverse(number):
+def reverse(num):
     sign = int(num/abs(num))
     list1 = list(str(abs(num)))
     list1.reverse()
