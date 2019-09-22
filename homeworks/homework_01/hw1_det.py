@@ -23,6 +23,6 @@ def calculate_determinant(list_of_lists):
     sign = 1
     det = 0
     for j in range(n):
-        det += list_of_lists[0][j] * sign * determinant(minor(list_of_lists, 0, j))
+        det += list_of_lists[0][j] * sign * calculate_determinant(minor(list_of_lists, 0, j))
         sign *= -1
     return det
